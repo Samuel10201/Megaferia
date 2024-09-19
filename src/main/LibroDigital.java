@@ -9,5 +9,6 @@ package main;
  * @author examen
  */
 public class LibroDigital {
-    
+    private boolean hasHipervonculo;
+    private int hipervinculo;
 }

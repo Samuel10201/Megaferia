@@ -4,10 +4,15 @@
  */
 package main;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author examen
  */
-public class Libro {
-    
+public abstract class Libro {
+    protected String titulo, isbn, genero, formato;
+    protected ArrayList<Autor> autores = new ArrayList<>();
+    protected float valor;
+    protected Editorial editorial;
 }

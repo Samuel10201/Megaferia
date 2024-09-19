@@ -8,6 +8,6 @@ package main;
  *
  * @author examen
  */
-public class LibroImpreso {
-    
+public class LibroImpreso extends Libro{
+    private int paginas, numEjemplares;
 }

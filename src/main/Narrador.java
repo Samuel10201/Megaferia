@@ -4,10 +4,17 @@
  */
 package main;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author examen
  */
-public class Narrador {
+public class Narrador extends Persona {
+    private ArrayList<Audiolibro> libros;
+    
+    public Narrador(String nombre, int cedula) {
+        super(nombre, cedula);
+    }
     
 }
